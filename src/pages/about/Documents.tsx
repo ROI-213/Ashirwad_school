@@ -1,4 +1,4 @@
-import { Eye, Download } from "lucide-react";
+import { Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Documents = () => {
@@ -48,11 +48,6 @@ const Documents = () => {
                       <td className="px-6 py-4 text-foreground/90 font-medium">{doc.title}</td>
                       <td className="px-6 py-4">
                         <div className="flex justify-end gap-2">
-                          <Button variant="outline" size="sm" className="gap-2" asChild>
-                            <a href={doc.href} download title="Download PDF">
-                              <Download className="w-4 h-4" /> <span className="hidden sm:inline">Download</span>
-                            </a>
-                          </Button>
                           <Button variant="default" size="sm" className="gap-2" asChild>
                             <a href={doc.href} target="_blank" rel="noopener noreferrer">
                               <Eye className="w-4 h-4" /> View
