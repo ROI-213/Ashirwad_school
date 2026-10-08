@@ -12,11 +12,19 @@ import teachingStaff13 from "@/assets/teaching-staff-13.jpg";
 import officeStaff2 from "@/assets/office-staff-2.jpeg";
 import officeStaff3 from "@/assets/office-staff-3.png";
 import officeStaff4 from "@/assets/office-staff-4.jpg";
-import newOfficeStaff1 from "@/assets/new-office-staff-1.jpg";
-import newOfficeStaff2 from "@/assets/new-office-staff-2.jpg";
-import newOfficeStaff3 from "@/assets/new-office-staff-3.jpg";
-import newOfficeStaff4 from "@/assets/new-office-staff-4.jpg";
-import newOfficeStaff5 from "@/assets/new-office-staff-5.jpg";
+
+
+import mouneshPattar from "@/assets/mounesh_pattar.jpg";
+import shankrappa from "@/assets/shankrappa.jpg";
+import shridharKaladagi from "@/assets/shridhar_kaladagi.jpg";
+import gnyaneshwariN from "@/assets/gnyaneshwari_n.jpg";
+import reshma from "@/assets/reshma.jpg";
+
+import anandRathod from "@/assets/anand_rathod.png";
+import sajiMathew from "@/assets/saji_mathew.png";
+import sateeshTalawar from "@/assets/sateesh_talawar.jpg";
+import sharadabai from "@/assets/sharadabai.jpg";
+import shivanandaSg from "@/assets/shivananda_sg.png";
 
 const OurFaculties = () => {
   const teachingStaff = [
@@ -68,6 +76,37 @@ const OurFaculties = () => {
       subject: "Maths",
       image: teachingStaff13,
     },
+
+    {
+      name: "MR.MOUNESH PATTAR",
+      qualification: "Diploma in ART",
+      subject: "Art",
+      image: mouneshPattar,
+    },
+    {
+      name: "MR.SHANKRAPPA",
+      qualification: "B.PEd",
+      subject: "PET",
+      image: shankrappa,
+    },
+    {
+      name: "MR.SHRIDHAR S KALADAGI",
+      qualification: "BA B.Ed",
+      subject: "Hindi",
+      image: shridharKaladagi,
+    },
+    {
+      name: "Mrs.GNYANESHWARI N",
+      qualification: "BA D.Ed",
+      subject: "English",
+      image: gnyaneshwariN,
+    },
+    {
+      name: "Mrs.RESHMA",
+      qualification: "M.Com B.Ed",
+      subject: "Hindi",
+      image: reshma,
+    },
   ];
 
   const officeStaff = [
@@ -86,30 +125,31 @@ const OurFaculties = () => {
       role: "Accountant",
       image: officeStaff4,
     },
+
     {
-      name: "[Name 1 - Light Blue Shirt]",
-      role: "[Designation 1]",
-      image: newOfficeStaff1,
+      name: "Anand Rathod",
+      role: "Media Incharge",
+      image: anandRathod,
     },
     {
-      name: "[Name 2 - Blue Suit Goatee]",
-      role: "[Designation 2]",
-      image: newOfficeStaff2,
+      name: "Saji Mathew",
+      role: "IT Admin",
+      image: sajiMathew,
     },
     {
-      name: "[Name 3 - Pink Sari]",
-      role: "[Designation 3]",
-      image: newOfficeStaff3,
+      name: "Sateesh M Talawar",
+      role: "Hostel Warden",
+      image: sateeshTalawar,
     },
     {
-      name: "[Name 4 - Blue Suit Striped Tie]",
-      role: "[Designation 4]",
-      image: newOfficeStaff4,
+      name: "Sharadabai",
+      role: "Hostel Warden",
+      image: sharadabai,
     },
     {
-      name: "[Name 5 - Blue Suit White Shirt]",
-      role: "[Designation 5]",
-      image: newOfficeStaff5,
+      name: "Shivananda SG",
+      role: "Campus Head",
+      image: shivanandaSg,
     },
   ];
 
