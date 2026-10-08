@@ -1,18 +1,13 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { GraduationCap, Users, Award, Briefcase, BookOpen } from "lucide-react";
 import teachingStaff01 from "@/assets/teaching-staff-01.jpg";
-import teachingStaff02 from "@/assets/teaching-staff-02.jpg";
 import teachingStaff03 from "@/assets/teaching-staff-03.jpg";
 import teachingStaff04 from "@/assets/teaching-staff-04.jpg";
 import teachingStaff05 from "@/assets/teaching-staff-05.png";
 import teachingStaff06 from "@/assets/teaching-staff-06.png";
-import teachingStaff07 from "@/assets/teaching-staff-07.jpeg";
 import teachingStaff08 from "@/assets/teaching-staff-08.jpg";
-import teachingStaff10 from "@/assets/teaching-staff-10.jpg";
 import teachingStaff11 from "@/assets/teaching-staff-11.png";
-import teachingStaff12 from "@/assets/teaching-staff-12.png";
 import teachingStaff13 from "@/assets/teaching-staff-13.jpg";
-import teachingStaff14 from "@/assets/teaching-staff-14.jpg";
 
 import officeStaff1 from "@/assets/office-staff-1.png";
 import officeStaff2 from "@/assets/office-staff-2.jpeg";
@@ -29,12 +24,6 @@ const OurFaculties = () => {
       qualification: "M.Sc, B.Ed",
       subject: "Mathematics",
       image: teachingStaff01,
-    },
-    {
-      name: "SNEHAL REVANKAR",
-      qualification: "B.Sc, B.Ed",
-      subject: "Science",
-      image: teachingStaff02,
     },
     {
       name: "PRIYANKA SURPUR",
@@ -61,22 +50,10 @@ const OurFaculties = () => {
       image: teachingStaff06,
     },
     {
-      name: "BHIMARAY",
-      qualification: "BA, B.Ed",
-      subject: "Kannada",
-      image: teachingStaff07,
-    },
-    {
       name: "SHANKAR RATHOD",
       qualification: "BA, BP.Ed",
       subject: "PE Teacher",
       image: teachingStaff08,
-    },
-    {
-      name: "YALLALINGA BIRADAR",
-      qualification: "BA, B.Ed",
-      subject: "Hindi",
-      image: teachingStaff10,
     },
     {
       name: "SHAILA B",
@@ -85,22 +62,10 @@ const OurFaculties = () => {
       image: teachingStaff11,
     },
     {
-      name: "DHANASHREE",
-      qualification: "MA, D.Ed",
-      subject: "Pre-Primary",
-      image: teachingStaff12,
-    },
-    {
       name: "SPOORTI GOKHALE",
       qualification: "B.Sc, B.Ed",
       subject: "Maths",
       image: teachingStaff13,
-    },
-    {
-      name: "CHANGALARAY",
-      qualification: "AMC",
-      subject: "Art & Craft",
-      image: teachingStaff14,
     },
   ];
 
