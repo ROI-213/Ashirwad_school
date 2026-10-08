@@ -15,7 +15,6 @@ import officeStaff4 from "@/assets/office-staff-4.jpg";
 
 
 import mouneshPattar from "@/assets/mounesh_pattar.jpg";
-import shankrappa from "@/assets/shankrappa.jpg";
 import shridharKaladagi from "@/assets/shridhar_kaladagi.jpg";
 import gnyaneshwariN from "@/assets/gnyaneshwari_n.jpg";
 import reshma from "@/assets/reshma.jpg";
@@ -82,12 +81,6 @@ const OurFaculties = () => {
       qualification: "Diploma in ART",
       subject: "Art",
       image: mouneshPattar,
-    },
-    {
-      name: "MR.SHANKRAPPA",
-      qualification: "B.PEd",
-      subject: "PET",
-      image: shankrappa,
     },
     {
       name: "MR.SHRIDHAR S KALADAGI",
