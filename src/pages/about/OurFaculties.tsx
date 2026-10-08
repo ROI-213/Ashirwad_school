@@ -12,6 +12,11 @@ import teachingStaff13 from "@/assets/teaching-staff-13.jpg";
 import officeStaff2 from "@/assets/office-staff-2.jpeg";
 import officeStaff3 from "@/assets/office-staff-3.png";
 import officeStaff4 from "@/assets/office-staff-4.jpg";
+import newOfficeStaff1 from "@/assets/new-office-staff-1.jpg";
+import newOfficeStaff2 from "@/assets/new-office-staff-2.jpg";
+import newOfficeStaff3 from "@/assets/new-office-staff-3.jpg";
+import newOfficeStaff4 from "@/assets/new-office-staff-4.jpg";
+import newOfficeStaff5 from "@/assets/new-office-staff-5.jpg";
 
 const OurFaculties = () => {
   const teachingStaff = [
@@ -80,6 +85,31 @@ const OurFaculties = () => {
       name: "M Sunil J Reddy",
       role: "Accountant",
       image: officeStaff4,
+    },
+    {
+      name: "[Name 1 - Light Blue Shirt]",
+      role: "[Designation 1]",
+      image: newOfficeStaff1,
+    },
+    {
+      name: "[Name 2 - Blue Suit Goatee]",
+      role: "[Designation 2]",
+      image: newOfficeStaff2,
+    },
+    {
+      name: "[Name 3 - Pink Sari]",
+      role: "[Designation 3]",
+      image: newOfficeStaff3,
+    },
+    {
+      name: "[Name 4 - Blue Suit Striped Tie]",
+      role: "[Designation 4]",
+      image: newOfficeStaff4,
+    },
+    {
+      name: "[Name 5 - Blue Suit White Shirt]",
+      role: "[Designation 5]",
+      image: newOfficeStaff5,
     },
   ];
 
