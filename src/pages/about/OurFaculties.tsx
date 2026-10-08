@@ -137,6 +137,11 @@ const OurFaculties = () => {
       image: sajiMathew,
     },
     {
+      name: "Shivananda SG",
+      role: "Campus Head",
+      image: shivanandaSg,
+    },
+    {
       name: "Sateesh M Talawar",
       role: "Hostel Warden",
       image: sateeshTalawar,
@@ -145,11 +150,6 @@ const OurFaculties = () => {
       name: "Sharadabai",
       role: "Hostel Warden",
       image: sharadabai,
-    },
-    {
-      name: "Shivananda SG",
-      role: "Campus Head",
-      image: shivanandaSg,
     },
   ];
 
