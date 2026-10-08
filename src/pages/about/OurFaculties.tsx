@@ -9,13 +9,9 @@ import teachingStaff08 from "@/assets/teaching-staff-08.jpg";
 import teachingStaff11 from "@/assets/teaching-staff-11.png";
 import teachingStaff13 from "@/assets/teaching-staff-13.jpg";
 
-import officeStaff1 from "@/assets/office-staff-1.png";
 import officeStaff2 from "@/assets/office-staff-2.jpeg";
 import officeStaff3 from "@/assets/office-staff-3.png";
 import officeStaff4 from "@/assets/office-staff-4.jpg";
-import officeStaff5 from "@/assets/office-staff-5.jpg";
-import officeStaff6 from "@/assets/office-staff-6.jpg";
-import officeStaff7 from "@/assets/office-staff-7.jpg";
 
 const OurFaculties = () => {
   const teachingStaff = [
@@ -71,11 +67,6 @@ const OurFaculties = () => {
 
   const officeStaff = [
     {
-      name: "SAJI MATHEW",
-      role: "IT Admin",
-      image: officeStaff1,
-    },
-    {
       name: "Shivu Reddy",
       role: "FDC",
       image: officeStaff2,
@@ -89,21 +80,6 @@ const OurFaculties = () => {
       name: "M Sunil J Reddy",
       role: "Accountant",
       image: officeStaff4,
-    },
-    {
-      name: "S Shivappa Chowdary",
-      role: "Marketing Team",
-      image: officeStaff5,
-    },
-    {
-      name: "Mahesh Reddy S H",
-      role: "Hostel Warden",
-      image: officeStaff6,
-    },
-    {
-      name: "Shruti P",
-      role: "Hostel Warden",
-      image: officeStaff7,
     },
   ];
 
